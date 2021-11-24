@@ -20,8 +20,8 @@
     
 
         <!-- right-side horizontal navigation -->
-        <a href="about.html" class="about">About</a>
-        <a href="blog.html" class="blog">Blog</a>
+        <a href="/about" class="about">About</a>
+        <a href="/blog" class="blog">Blog</a>
 
         <!-- name as title -->
         <h1 class="firstHead">Hello,</h1>
