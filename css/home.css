@@ -1,0 +1,175 @@
+/* ---------- website constants ---------- */
+page {
+    background-color: #FAF9F5;
+}
+
+/* main grid container */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(8, 100px);
+
+    /* margins */
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1 fr;
+        grid-template-rows: repeat(12, 1fr);
+    }
+}   
+
+/* logo */
+.basicLogo{
+    height: 130px;
+    width: auto;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+/* link design */
+a:link, a:visited {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: black;
+    text-decoration: underline 1px black;
+}
+
+/* ----- navigation bar ----- */
+.about {
+    grid-column-start: 10;
+    grid-row-start: 1;
+    text-align: center;
+    align-self: end;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.blog {
+    grid-column-start: 11;
+    grid-row-start: 1;
+    text-align: center;
+    align-self: end;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+/* ---------- vertical links on left ---------- */
+.link1 {
+    text-align: left;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    transform: rotate(-90deg);
+}
+.link2 {
+    text-align: left;
+    grid-column-start: 3;
+    grid-row-start: 4;
+    transform: rotate(-90deg);
+}
+.link3 {
+    text-align: left;
+    grid-column-start: 3;
+    grid-row-start: 5;
+    transform: rotate(-90deg);
+}
+
+/* ---------- main body ---------- */
+
+.firstHead {
+    font-family: lust;
+    font-size: 8vh;
+
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    
+    margin-bottom: 2vh;
+}
+
+.secondHead {
+    font-family: lust;
+    font-size: 8vh;
+
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 2;
+
+    margin-top: 2vh;
+    margin-left: 20%;
+}
+
+.biography {
+    /* typography */
+    font-family: courier;
+    line-height: 22px;
+
+    /* positioning */
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+/* ----- general button ----- */
+.buttonV1 {
+    /* size */
+    height: 3vh;
+
+    /* design */
+    background-color: transparent;
+
+    /* border */
+    border: none;
+    border-bottom: 1px solid black;
+    
+
+    /* typography */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+}
+
+.buttonV1.resume {
+    /* positioning */
+    grid-row-start: 7;
+    grid-column-start: 4;
+    margin-right: 5px;
+
+     /* size */
+     height: 45px;
+     width: 150px;
+}
+
+
+/* image of me */
+.myPhoto {
+    height: 70vh;
+    width: auto;
+    padding-left: 8vw;
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+/* ----- footer ----- */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
