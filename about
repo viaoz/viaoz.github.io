@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/aboutMe.css">
+    <script src="myscript.js"></script>
+    <title>About</title>
+</head>
+<body>
+    <section class="wrapper">
+        <a href="home.html"><img src="logos/Asset 1.png" class="basicLogo"></a>
+        <a href="about.html" class="about">About</a>
+        <a href="blog.html" class="blog">Blog</a>
+
+        <div class="container1">
+            <h1>About Me</h1>
+        </div>
+
+        
+        
+        <div class="content2">
+            <p>I'm a third-year, full-time student at the University of Wisconsin Oshkosh.</p>
+            <p>I'm actively pursuing my Bachelor of Arts, majoring in <a href="https://uwosh.edu/iwm/">Interactive Web Management</a> and minoring in <a href="https://uwosh.edu/cs/choose/web-mobile-dev-minor/">Web & Mobile Development</a> .</p>
+
+            <p>During the semester I am the lead Web Editor for <a href="https://advancetitan.com/">the Advance-Titan</a>.</p>
+
+            <p>When I'm not studying, you could find me cooking new recipes, creating a new piece of artwork, reorganizing my apartment, meditating with crystals, or taking care of my 2 (remaining) plants.</p>
+            
+
+        </div>
+
+        <div class="container2">
+            <h2>Developer</h2>
+            <ul>
+                <li>Semantic HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>WordPress</li>
+                <li>*Java</li>
+                <li>*Analaytics</li>
+            </ul>
+
+            <span id="note">* = currently learning / working on</span>
+        </div>
+        
+        <h1 id="skillHead">*My Skills</h1>
+
+        <div class="container3">
+            <h2>Designer</h2>
+            <ul>
+                <li>Illustrator</li>
+                <li>*Photoshop</li>
+                <li>*Figma</li>
+            </ul>
+        </div>
+
+
+        <div class="container4">
+            <h2>Personal</h2>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Team work</li>
+                <li>Eager to learn</li>
+                <li>Adaptability</li>
+                <li>Optimism / Positivity</li>
+            </ul>
+        </div>
+
+
+        <div class="container5">
+            <h1>Contact Me</h1>
+            <p>If you want to chat, you can reach me at <a href="mailto: oliviaozbaki@outlook.com">oliviaozbaki@outlook.com</a>.</p>
+        </div>
+    </section>
+</body>
+</html>
