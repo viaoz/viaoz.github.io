@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
     <title>Home</title>
 </head>
-<body>
-    <section class="wrapper">
-        <!-- logo -->
-        <a href="/index.html"><img src="/Logo1.png" class="basicLogo" alt="personal logo"></a>
-        
-        <!-- left-side sideways links -->
-        <a href="https://github.com/viaoz" class="link1">GitHub</a>
-        <a href="https://pinterest.com/viaflwrs" class="link2">Pinterest</a>
-        <a href="https://linkedin.com/in/oliviaozbaki" class="link3">LinkedIn</a>
-    
-
-        <!-- right-side horizontal navigation -->
-        <a href="/about.html" class="about">About</a>
-        <a href="https://viaoz.github.io/my-blog/" class="blog">Blog</a>
-
-        <!-- name as title -->
-        <h1 class="firstHead">Hello,</h1>
-        <h1 class="secondHead">I'm Olivia</h1>
-
-        <!-- picture of me -->
-        <img src="me.v1.png" class="myPhoto">
-
-        <!-- biography -->
-        <div class="biography">
-            <p>I'm a third-year undergraduate student at the University of Wisconsin Oshkosh.</p>
-            <p>I enjoy designing thoughtful and minimalistic digital experiences. I believe that web should be useful and accessible.</p>
-            <p>I mostly use semantic HTML, CSS, and JavaScript, and I'm currently learning Java.</p>
+<body class="container">
+    <nav>
+        <a href="index.html"><img src="Logo1.png" id="logo"></a>
+        <a href="https://viaoz.github.io/about.html" id="link" style="grid-column-start: 11;"">ABOUT</a>
+        <a href=" https://viaoz.github.io/my-blog/" id="link" style="grid-column-start: 12;"">BLOG</a>
+    </nav>
+    <main class="contentWrap">
+        <h1>Hello, I'm Olivia</h1>
+        <div id="text1">
+            <p>I'm a third-year undergraduate student at the University of Wisconsin Oshkosh. I enjoy designing thoughtful and minimalistic experiences that are effective and accessible. I mostly use semantic HTML, CSS, and JavaScript, and I'm currently learning Java.</p>
             <p>I'm an advocate for social justice, neurodiversity, and disability awareness.</p>
         </div>
-
-        <!-- buttons -->
-        <button class="buttonV1 resume"><a href="https://docs.google.com/document/d/1Tc7Bz-sGKmetqYsMd-aE8GoMTf-6KfZbD5wlW9sKRAI/edit?usp=sharing">View Resume</a></button>
-        
+    </main>
+    <div id="content1">
+        <img src="me.v1.png" id="myPhoto">
+    </div>
+    <div id="bottomNav">
+        <a href="https://linkedin.com/in/oliviaozbaki" id="link">LINKEDIN</a>
+        <a href="https://github.com/viaoz" id="link">GITHUB</a>
+        <a href="https://pinterest.com/viaflwrs" id="link">PINTEREST</a>
+    </div>
+    <!-- 
+    <div id="content2">
+        <h1>Portfolio</h1>
+    </div>
+    <div id="content3">
+        <h2>Courses</h2>
+        <ul>
+            <li>CS 125</li>
+            <li>CS 142</li>
+            <li>CS 221</li>
+        </ul>
+        <vl></vl>
+    </div>
+    <div id="content4">
+        content4
+    </div>
+    <footer>
+        footer
+    </footer>
+-->
 </body>
 </html>
